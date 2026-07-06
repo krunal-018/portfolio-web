@@ -34,7 +34,7 @@ const DATA = {
     profile_image: "/images/profile.jpg",
     email: "krunalkaklotar2283@gmail.com",
     linkedin: "https://www.linkedin.com/in/krunal-kaklotar",
-    github: "https://github.com/krunal-018/krunal-018"
+    github: "https://github.com/krunal-018/about-me"
   },
   skills: [
     { name: "Python", category: "Programming Languages" },
