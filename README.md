@@ -1,5 +1,7 @@
 # 🌐 Krunal Kaklotar - Portfolio Website
 
+### [Visit my live portfolio ↗](https://krunal-018.vercel.app/)
+
 Welcome to the repository of my personal portfolio website, designed to showcase my academic projects, skills, education, professional experience, and technical achievements. 
 
 This project is built using a modern full-stack architecture with a **FastAPI** backend and a **Next.js** (React) frontend.
