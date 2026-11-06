@@ -60,10 +60,10 @@ const DATA = {
     {
       id: 2,
       title: "Niramaya – Health AI",
-      description: "AI-powered healthcare web application for symptom analysis and disease prediction.",
+      description: "Biomedical evidence workspace with AI-assisted health explanations, literature search, and visit preparation.",
       association: "VNSGU, Surat",
-      features: "NLP-based symptom analysis, Disease prediction, AI-driven health responses, Interactive chatbot using BioGPT and Gemini.",
-      technologies: "Python, Flask, Scikit-learn, Hugging Face",
+      features: "Free-text chat grounded in retrieved abstracts, PubMed source cards, English or German answers, and editable visit notes.",
+      technologies: "Python, Flask, JavaScript, Europe PMC, Gemini",
       date_range: "May 2025 – Jul 2025"
     },
     {
