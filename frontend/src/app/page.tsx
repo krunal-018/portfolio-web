@@ -297,6 +297,17 @@ export default function Home() {
                   <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-accent-blue transition-colors">
                     View Project Details <ChevronRight size={14} />
                   </div>
+                  {project.id === 2 && (
+                    <a
+                      href="https://niramaya-health-ai-bbzc.onrender.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(event) => event.stopPropagation()}
+                      className="mt-4 inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-xs font-bold text-accent-blue hover:underline focus-visible:outline focus-visible:outline-2"
+                    >
+                      Try Niramaya <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}
