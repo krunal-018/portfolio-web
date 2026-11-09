@@ -308,6 +308,17 @@ export default function Home() {
                       Try Niramaya <ExternalLink size={14} aria-hidden="true" />
                     </a>
                   )}
+                  {project.id === 3 && (
+                    <a
+                      href="https://roro-ferry.freedev.app/Roro-Ferry-Management-System-main/Roro-Ferry-Management-System-main/index.php"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(event) => event.stopPropagation()}
+                      className="mt-4 inline-flex items-center gap-2 rounded-md border border-border px-3 py-2 text-xs font-bold text-accent-blue hover:underline focus-visible:outline focus-visible:outline-2"
+                    >
+                      Try Ro-Ro Ferry <ExternalLink size={14} aria-hidden="true" />
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}
